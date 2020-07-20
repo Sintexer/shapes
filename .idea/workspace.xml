@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ce4b325-1e7a-4356-b415-ce5c3cba9d46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/Point.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/Shape.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jetbrains_annotations_19_0_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/entity/ShapeEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/repository/ShapesCrudRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shapes.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shapes.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/controller/ShapesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/controller/ShapesController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/Shape.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/controller/ShapesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/controller/ShapesController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +27,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -50,9 +59,15 @@
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="restartRequiresConfirmation" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.ilyabuglakov.shapes" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="ShapesApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
@@ -83,7 +98,8 @@
       <option name="presentableId" value="Default" />
       <updated>1595273690636</updated>
       <workItem from="1595273692513" duration="1267000" />
-      <workItem from="1595275653476" duration="2197000" />
+      <workItem from="1595275653476" duration="3525000" />
+      <workItem from="1595279269557" duration="324000" />
     </task>
     <servers />
   </component>
@@ -91,42 +107,54 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1595277843131">
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1595278910717">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1595277843131" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1595276373795">
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1595278910717" />
+    <state x="546" y="480" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595278804114">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1595276373795" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1595276373795">
+    <state x="546" y="480" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1595278804114" />
+    <state x="756" y="435" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages" timestamp="1595278805770">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1595276373795" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1595276373795">
+    <state x="756" y="435" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.30.1920.1050@0.30.1920.1050" timestamp="1595278805770" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1595279449372">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1595276373795" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1595276373795">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1595279449372" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1595279449372">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1595276373795" />
-    <state width="1877" height="285" key="GridCell.Tab.1.bottom" timestamp="1595276373796">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1595279449372" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1595279449371">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1595276373796" />
-    <state width="1877" height="285" key="GridCell.Tab.1.center" timestamp="1595276373795">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1595279449371" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1595279449372">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1595276373795" />
-    <state width="1877" height="285" key="GridCell.Tab.1.left" timestamp="1595276373795">
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1595279449372" />
+    <state width="1877" height="285" key="GridCell.Tab.1.bottom" timestamp="1595279449373">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1595276373795" />
-    <state width="1877" height="285" key="GridCell.Tab.1.right" timestamp="1595276373796">
+    <state width="1877" height="285" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1595279449373" />
+    <state width="1877" height="285" key="GridCell.Tab.1.center" timestamp="1595279449373">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1595276373796" />
+    <state width="1877" height="285" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1595279449373" />
+    <state width="1877" height="285" key="GridCell.Tab.1.left" timestamp="1595279449373">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1595279449373" />
+    <state width="1877" height="285" key="GridCell.Tab.1.right" timestamp="1595279449373">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1595279449373" />
+    <state x="490" y="210" key="Maven.ArtifactSearchDialog" timestamp="1595279148159">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="490" y="210" key="Maven.ArtifactSearchDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1595279148159" />
     <state x="656" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1595275663500">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
