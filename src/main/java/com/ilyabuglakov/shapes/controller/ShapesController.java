@@ -3,6 +3,7 @@ package com.ilyabuglakov.shapes.controller;
 import com.ilyabuglakov.shapes.model.Shape;
 import com.ilyabuglakov.shapes.entity.ShapeEntity;
 import com.ilyabuglakov.shapes.repository.ShapesCrudRepository;
+import com.ilyabuglakov.shapes.service.ShapeService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
@@ -15,6 +16,8 @@ public class ShapesController {
 
     @Autowired
     ShapesCrudRepository repository;
+    @Autowired
+    ShapeService service;
 
     @GetMapping
     public String home(@RequestParam(required = false, defaultValue = "World") String param, Model model){
@@ -24,6 +27,7 @@ public class ShapesController {
 
     @PostMapping("/add")
     public ResponseEntity<?> addShape(@RequestBody Shape shape){
+        shape = service.removeExcessPoints(shape);
         repository.save(ShapeEntity.from(shape));
         return ResponseEntity.ok("Added "+ shape);
     }

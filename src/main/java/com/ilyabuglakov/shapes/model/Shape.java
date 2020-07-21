@@ -4,16 +4,14 @@ import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 
-import javax.persistence.ElementCollection;
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.Id;
-
 public class Shape {
     private List<Point> points;
 
     public Shape() {
-        points = new LinkedList<>();
+    }
+
+    public Shape(List<Point> points) {
+        this.points = points;
     }
 
     public List<Point> getPoints() {
