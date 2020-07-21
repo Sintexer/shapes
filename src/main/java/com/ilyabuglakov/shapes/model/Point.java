@@ -48,6 +48,6 @@ public class Point {
 
     @Override
     public String toString() {
-        return String.format("(&x;&y)", x, y);
+        return String.format("(%s;%s)", x, y);
     }
 }

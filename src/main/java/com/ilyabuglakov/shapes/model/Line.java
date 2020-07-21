@@ -10,8 +10,6 @@ public class Line {
     private final boolean isXConst;
 
     public Line(Point begin, Point end) {
-        if(begin.equals(end))
-            throw new ArithmeticException("Can't calculate line from 1 point");
         this.begin = begin;
         this.end = end;
         if(Double.compare(begin.getX(), end.getX())==0){
@@ -52,4 +50,7 @@ public class Line {
         return end;
     }
 
+    public boolean isXConst() {
+        return isXConst;
+    }
 }

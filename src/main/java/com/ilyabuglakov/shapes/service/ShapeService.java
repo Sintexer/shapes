@@ -11,56 +11,46 @@ import java.util.*;
 @Service
 public class ShapeService {
     public Shape removeExcessPoints(Shape shape) {
-        List<Point> result = new ArrayList<Point>(shape.getPoints());
+        List<Point> result = new LinkedList<>();
+        result.addAll(new LinkedHashSet<>(shape.getPoints()));
         int length = result.size();
         if(length<3)
-            return shape;
+            return new Shape(result);
         Map<Line, List<Point>> collapsed = new HashMap<>();
 
         for (int i = 0; i < length; ++i) {
             int j = (i+1)%length;
             int k = (i+2)%length;
-            List<Point> points = Arrays.asList(result.get(i), result.get(j), result.get(k));
-            if(pointsOnOneLine((Point[])points.toArray())){
+            if(pointsOnOneLine(result.get(i), result.get(j), result.get(k))){
                 Line line = new Line(result.get(i), result.get(j));
-                collapsed.put(line, points);
+                collapsed.put(line, Arrays.asList(result.get(i), result.get(j), result.get(k)));
             }
         }
-//        if (result.size() > 2) {
-//            Line line;
-//            Iterator<Point> it = shape.getPoints().iterator();
-//            Point begin, middle, end;
-//            begin = it.next();
-//            middle = it.next();
-//            while (it.hasNext()) {
-//                end = it.next();
-//                line = new Line(begin, end);
-//                if(line.contains(middle)) result.remove(middle); else begin = middle;
-//                middle = end;
-//            }
-//            if (result.size() > 2) {
-//                end = result.get(0);
-//                line = new Line(begin, end);
-//                if (line.contains(middle)) result.remove(middle);
-//                else begin = middle;
-//                middle = end;
-//            }
-//            if (result.size() > 2) {
-//                end = result.get(1);
-//                line = new Line(begin, end);
-//                if (line.contains(middle)) result.remove(middle);
-//            }
-//
-//        }
+
+        collapsed = leaveMiddlePoints(collapsed);
+        for(List<Point> points: collapsed.values()){
+            System.out.println(points);
+            result.removeAll(points);
+        }
         return new Shape(result);
     }
 
     private Map<Line, List<Point>> leaveMiddlePoints( Map<Line, List<Point>> collapsed){
-
+        for(Line key: collapsed.keySet()){
+            List<Point> current = collapsed.get(key);
+            Comparator<Point> comparatorByY = (p1, p2) -> (int)Math.ceil((p1.getY()-p2.getY())),
+                    comparatorByX = (p1, p2) -> (int)Math.ceil((p1.getX()-p2.getX()));
+            if(key.isXConst())
+                current.sort(comparatorByY);
+            else
+                current.sort(comparatorByX);
+            collapsed.put(key, current.subList(1, current.size()-1));
+        }
+        return collapsed;
     }
 
     private boolean pointsOnOneLine(Point... points) {
-        //2 points  are always on the same line, 1 point too
+        //2 points are always on the same line, 1 point too
         if (points.length < 3)
             return true;
         Line line = new Line(points[0], points[1]);

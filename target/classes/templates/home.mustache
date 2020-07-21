@@ -3,8 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>Shapes</title>
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
 </head>
 <body>
+    <main>
     <span>Hello, {{word}}</span>
+
+    <table>
+        <thead><th>Id</th><th>Points</th></thead>
+        <tbody>
+        {{#shapes}}
+            <tr><td>{{id}}</td><td><ul class="points">{{#points}}<li>{{.}}</li>{{/points}}</ul></td></tr>
+        {{/shapes}}
+        </tbody>
+    </table>
+    </main>
 </body>
 </html>

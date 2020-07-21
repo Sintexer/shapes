@@ -22,13 +22,15 @@ public class ShapesController {
     @GetMapping
     public String home(@RequestParam(required = false, defaultValue = "World") String param, Model model){
         model.addAttribute("word", param);
+        model.addAttribute("shapes", repository.getAllByIdNotNull());
         return "home";
     }
 
     @PostMapping("/add")
     public ResponseEntity<?> addShape(@RequestBody Shape shape){
         shape = service.removeExcessPoints(shape);
-        repository.save(ShapeEntity.from(shape));
+        if(!shape.getPoints().isEmpty())
+            repository.save(ShapeEntity.from(shape));
         return ResponseEntity.ok("Added "+ shape);
     }
 }

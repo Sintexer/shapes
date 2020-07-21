@@ -1,0 +1,14 @@
+head, th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.points{
+    list-style-type: none;
+    display: inline-flex;
+}
+
+body{
+    background-image: url("images/body-bg.jpg");
+    background-repeat: repeat;
+}
