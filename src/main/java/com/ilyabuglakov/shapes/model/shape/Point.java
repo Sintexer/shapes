@@ -1,7 +1,6 @@
-package com.ilyabuglakov.shapes.model;
+package com.ilyabuglakov.shapes.model.shape;
 
 import javax.persistence.Embeddable;
-import javax.persistence.Entity;
 import java.util.Objects;
 
 @Embeddable
@@ -48,6 +47,6 @@ public class Point {
 
     @Override
     public String toString() {
-        return String.format("(%s;%s)", x, y);
+        return "(" + x + "; " + y + ")";
     }
 }

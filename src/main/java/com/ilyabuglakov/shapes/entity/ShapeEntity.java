@@ -1,7 +1,7 @@
 package com.ilyabuglakov.shapes.entity;
 
-import com.ilyabuglakov.shapes.model.Point;
-import com.ilyabuglakov.shapes.model.Shape;
+import com.ilyabuglakov.shapes.model.shape.Point;
+import com.ilyabuglakov.shapes.model.shape.Shape;
 
 import java.util.List;
 

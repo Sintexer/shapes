@@ -1,6 +1,6 @@
 package com.ilyabuglakov.shapes.validator;
 
-import com.ilyabuglakov.shapes.model.Point;
+import com.ilyabuglakov.shapes.model.shape.Point;
 import org.springframework.stereotype.Service;
 
 import java.util.Objects;

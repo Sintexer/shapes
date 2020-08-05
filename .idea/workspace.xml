@@ -2,22 +2,38 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ce4b325-1e7a-4356-b415-ce5c3cba9d46" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/images/body-bg.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/line/AnyLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/line/Line.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/line/VerticalLine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/service/ShapeClassifier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/body-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/scripts/add-shape.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/add-shape.mustache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/ShapesApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/ShapesApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/controller/ShapesController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/controller/ShapesController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/Line.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/Line.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/Point.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/repository/ShapesCrudRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/repository/ShapesCrudRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/entity/ShapeEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/entity/ShapeEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/Line.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/shape/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/Shape.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/model/shape/Shape.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/service/ShapeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/service/ShapeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/validator/PointsValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/validator/PointsValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/validator/ShapesValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ilyabuglakov/shapes/validator/ShapesValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/images/body-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/home.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/home.mustache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/ShapesApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/ShapesApplication.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/controller/ShapesController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/controller/ShapesController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/model/Line.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/model/Line.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/model/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/model/Point.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/repository/ShapesCrudRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/repository/ShapesCrudRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/entity/ShapeEntity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/entity/ShapeEntity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/model/Line.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/model/Point.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/model/Shape.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/service/ShapeService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/service/ShapeService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/validator/PointsValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/validator/PointsValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/validator/ShapesValidator.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/ilyabuglakov/shapes/validator/ShapesValidator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/images/body-bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/home.mustache" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/home.mustache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,6 +48,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -67,17 +84,23 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/images" />
     <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Repositories\Shapes spring mvc\shapes\src\main\resources\static\css" />
+      <recent name="D:\Repositories\Shapes spring mvc\shapes\src\main\resources\static" />
+      <recent name="D:\Repositories\Shapes spring mvc\shapes\src\main\resources\static\images" />
+      <recent name="D:\Repositories\Shapes spring mvc\shapes\src\main\resources" />
+      <recent name="D:\Repositories\Shapes spring mvc\shapes\src\main\resources\static\css\images" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ilyabuglakov.shapes" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Repositories\Shapes spring mvc\shapes\src\main\resources\static\images" />
       <recent name="D:\Repositories\Shapes spring mvc\shapes\src\main\resources\static\css\images" />
-      <recent name="D:\Repositories\Shapes spring mvc\shapes\src\main\resources\static\styles\css" />
-      <recent name="D:\Repositories\Shapes spring mvc\shapes\src\main\resources\static" />
-      <recent name="D:\Repositories\Shapes spring mvc\shapes\src\main\resources\templates" />
     </key>
   </component>
   <component name="RunManager">
@@ -111,7 +134,16 @@
       <workItem from="1595273692513" duration="1267000" />
       <workItem from="1595275653476" duration="3525000" />
       <workItem from="1595279269557" duration="6344000" />
-      <workItem from="1595312098142" duration="10929000" />
+      <workItem from="1595312098142" duration="17660000" />
+      <workItem from="1595404494631" duration="6180000" />
+      <workItem from="1595604095813" duration="28334000" />
+      <workItem from="1595748910739" duration="2344000" />
+      <workItem from="1595920583033" duration="1945000" />
+      <workItem from="1595964474628" duration="12545000" />
+      <workItem from="1596179593502" duration="2029000" />
+      <workItem from="1596355425456" duration="5413000" />
+      <workItem from="1596462150275" duration="11113000" />
+      <workItem from="1596531361888" duration="3376000" />
     </task>
     <servers />
   </component>
@@ -119,10 +151,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1595314799645">
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser" timestamp="1596007026288">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1595314799645" />
+    <state x="765" y="256" key="#com.intellij.ide.util.MemberChooser/0.30.1920.1050@0.30.1920.1050" timestamp="1596007026288" />
     <state x="546" y="480" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1595280154243">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
@@ -131,53 +163,81 @@
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="756" y="435" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.packages/0.30.1920.1050@0.30.1920.1050" timestamp="1595280155341" />
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1595351257932">
+    <state x="214" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1596465382887">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1595351257932" />
-    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1595351257932">
+    <state x="214" y="30" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1596465382887" />
+    <state x="690" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1595419218097">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1595351257932" />
-    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1595351257931">
+    <state x="690" y="302" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1595419218097" />
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom" timestamp="1596537171383">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1595351257931" />
-    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1595351257932">
+    <state width="1877" height="285" key="GridCell.Tab.0.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1596537171383" />
+    <state width="1877" height="285" key="GridCell.Tab.0.center" timestamp="1596537171383">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1595351257932" />
-    <state width="1877" height="285" key="GridCell.Tab.1.bottom" timestamp="1595351257933">
+    <state width="1877" height="285" key="GridCell.Tab.0.center/0.30.1920.1050@0.30.1920.1050" timestamp="1596537171383" />
+    <state width="1877" height="285" key="GridCell.Tab.0.left" timestamp="1596537171383">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1595351257933" />
-    <state width="1877" height="285" key="GridCell.Tab.1.center" timestamp="1595351257932">
+    <state width="1877" height="285" key="GridCell.Tab.0.left/0.30.1920.1050@0.30.1920.1050" timestamp="1596537171383" />
+    <state width="1877" height="285" key="GridCell.Tab.0.right" timestamp="1596537171383">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1595351257932" />
-    <state width="1877" height="285" key="GridCell.Tab.1.left" timestamp="1595351257932">
+    <state width="1877" height="285" key="GridCell.Tab.0.right/0.30.1920.1050@0.30.1920.1050" timestamp="1596537171383" />
+    <state width="1877" height="285" key="GridCell.Tab.1.bottom" timestamp="1596537171383">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1595351257932" />
-    <state width="1877" height="285" key="GridCell.Tab.1.right" timestamp="1595351257933">
+    <state width="1877" height="285" key="GridCell.Tab.1.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1596537171383" />
+    <state width="1877" height="285" key="GridCell.Tab.1.center" timestamp="1596537171383">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state width="1877" height="285" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1595351257933" />
+    <state width="1877" height="285" key="GridCell.Tab.1.center/0.30.1920.1050@0.30.1920.1050" timestamp="1596537171383" />
+    <state width="1877" height="285" key="GridCell.Tab.1.left" timestamp="1596537171383">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.1.left/0.30.1920.1050@0.30.1920.1050" timestamp="1596537171383" />
+    <state width="1877" height="285" key="GridCell.Tab.1.right" timestamp="1596537171383">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="285" key="GridCell.Tab.1.right/0.30.1920.1050@0.30.1920.1050" timestamp="1596537171383" />
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom" timestamp="1595922960502">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.bottom/0.30.1920.1050@0.30.1920.1050" timestamp="1595922960502" />
+    <state width="1877" height="352" key="GridCell.Tab.2.center" timestamp="1595922960502">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.center/0.30.1920.1050@0.30.1920.1050" timestamp="1595922960502" />
+    <state width="1877" height="352" key="GridCell.Tab.2.left" timestamp="1595922960501">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.left/0.30.1920.1050@0.30.1920.1050" timestamp="1595922960501" />
+    <state width="1877" height="352" key="GridCell.Tab.2.right" timestamp="1595922960502">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state width="1877" height="352" key="GridCell.Tab.2.right/0.30.1920.1050@0.30.1920.1050" timestamp="1595922960502" />
     <state x="490" y="210" key="Maven.ArtifactSearchDialog" timestamp="1595279148159">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
     <state x="490" y="210" key="Maven.ArtifactSearchDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1595279148159" />
-    <state x="656" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1595312180428">
+    <state x="656" y="379" key="com.intellij.ide.util.TipDialog" timestamp="1596531522272">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="656" y="379" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1595312180428" />
-    <state x="616" y="258" width="672" height="677" key="run.anything.popup" timestamp="1595314878192">
+    <state x="656" y="379" key="com.intellij.ide.util.TipDialog/0.30.1920.1050@0.30.1920.1050" timestamp="1596531522272" />
+    <state x="591" y="103" width="737" height="903" key="find.popup" timestamp="1595365587162">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="616" y="258" width="672" height="677" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1595314878192" />
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1595346393945">
+    <state x="591" y="103" width="737" height="903" key="find.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1595365587162" />
+    <state x="616" y="258" width="672" height="677" key="run.anything.popup" timestamp="1596532135555">
       <screen x="0" y="30" width="1920" height="1050" />
     </state>
-    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1595346393945" />
+    <state x="616" y="258" width="672" height="677" key="run.anything.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1596532135555" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1595669404562">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/0.30.1920.1050@0.30.1920.1050" timestamp="1595669404562" />
   </component>
 </project>

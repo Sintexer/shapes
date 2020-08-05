@@ -1,7 +1,7 @@
 package com.ilyabuglakov.shapes.controller;
 
-import com.ilyabuglakov.shapes.model.Shape;
 import com.ilyabuglakov.shapes.entity.ShapeEntity;
+import com.ilyabuglakov.shapes.model.shape.Shape;
 import com.ilyabuglakov.shapes.repository.ShapesCrudRepository;
 import com.ilyabuglakov.shapes.service.ShapeService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,10 +20,14 @@ public class ShapesController {
     ShapeService service;
 
     @GetMapping
-    public String home(@RequestParam(required = false, defaultValue = "World") String param, Model model){
-        model.addAttribute("word", param);
+    public String home(Model model){
         model.addAttribute("shapes", repository.getAllByIdNotNull());
         return "home";
+    }
+
+    @GetMapping("/add-shape")
+    public String addShape(Model model){
+        return "add-shape";
     }
 
     @PostMapping("/add")

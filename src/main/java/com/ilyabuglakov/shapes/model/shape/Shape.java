@@ -1,6 +1,5 @@
-package com.ilyabuglakov.shapes.model;
+package com.ilyabuglakov.shapes.model.shape;
 
-import java.util.LinkedList;
 import java.util.List;
 import java.util.Objects;
 

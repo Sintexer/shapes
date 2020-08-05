@@ -1,6 +1,6 @@
 package com.ilyabuglakov.shapes.validator;
 
-import com.ilyabuglakov.shapes.model.Shape;
+import com.ilyabuglakov.shapes.model.shape.Shape;
 
 import java.util.Objects;
 
